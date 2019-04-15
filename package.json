@@ -18,9 +18,9 @@
     "test": "ember test"
   },
   "devDependencies": {
-    "babel-eslint": "^8.0.2",
     "@ember/optional-features": "^0.7.0",
     "@glimmer/component": "^0.14.0-alpha.3",
+    "babel-eslint": "^8.0.2",
     "broccoli-asset-rev": "^3.0.0",
     "ember-auto-import": "^1.2.20",
     "ember-cli": "github:ember-cli/ember-cli#1c7e84c9449da31b0babe0e2e5df26c7570ce620",
@@ -31,13 +31,16 @@
     "ember-cli-htmlbars": "^3.0.0",
     "ember-cli-htmlbars-inline-precompile": "^2.0.0",
     "ember-cli-inject-live-reload": "^2.0.1",
+    "ember-cli-sass": "^10.0.0",
     "ember-cli-sri": "^2.1.1",
     "ember-cli-template-lint": "^1.0.0-beta.1",
     "ember-cli-uglify": "^2.1.0",
     "ember-data": "github:emberjs/data#97deeef1d0bb25793982797a7717f3352eeda4e4",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^2.0.0",
+    "ember-local-storage": "^1.7.0",
     "ember-maybe-import-regenerator": "^0.1.6",
+    "ember-prism": "^0.4.0",
     "ember-qunit": "^4.1.2",
     "ember-resolver": "^5.1.3",
     "ember-source": "https://s3.amazonaws.com/builds.emberjs.com/canary/shas/dc710843553792b6a26b3caf521476325cb65cbc.tgz",
@@ -45,7 +48,8 @@
     "eslint-plugin-ember": "^6.0.1",
     "eslint-plugin-node": "^8.0.1",
     "loader.js": "^4.7.0",
-    "qunit-dom": "^0.8.0"
+    "qunit-dom": "^0.8.0",
+    "sass": "^1.17.3"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"
