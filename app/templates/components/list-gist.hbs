@@ -1,3 +1,23 @@
-{{yield}}
-<h2>List Gist</h2>
-{{!-- <button>Add Gist</button> --}}
+<div class="main-code-box">
+    {{#each gistsInfo.gists as |gist|}}
+    <div class="file-block">
+        <div class="file-header">
+            <h2>{{gist.description}}</h2>
+            <small>{{gist.fileName}}</small>
+
+        </div>
+        <div class="code-box">
+            <CodeBlock @language='javascript'>
+                {{gist.body}}
+            </CodeBlock>
+        </div>
+    </div>
+    {{/each}}
+    {{#unless this.isEmpty}}
+    <div class="is-empty">
+
+        <h2>No Gists! Please add one!</h2>
+    </div>
+    {{/unless}}
+
+</div>
