@@ -38,7 +38,6 @@
     "ember-data": "github:emberjs/data#97deeef1d0bb25793982797a7717f3352eeda4e4",
     "ember-export-application-global": "^2.0.0",
     "ember-load-initializers": "^2.0.0",
-    "ember-local-storage": "^1.7.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-prism": "^0.4.0",
     "ember-qunit": "^4.1.2",

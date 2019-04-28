@@ -7,7 +7,7 @@ export default class AddGistController extends Controller {
 
   @action
   addGistInfoRoute(body, description, fileName) {
-    this.gistsInfo.gists.push({ body, description, fileName });
+    this.gistsInfo.addGist({ body, description, fileName });
     this.transitionToRoute("/");
   }
 }
