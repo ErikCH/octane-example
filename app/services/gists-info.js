@@ -1,7 +1,8 @@
 import Service from "@ember/service";
+import { tracked } from "@glimmer/tracking";
 
 export default class GistsInfoService extends Service {
-  gists = [
+  @tracked gists = [
     {
       fileName: "example.hbs",
       description: "just an example",
