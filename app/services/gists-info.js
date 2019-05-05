@@ -17,6 +17,22 @@ export default class GistsInfoService extends Service {
           variable = "value"
         }
       `
+    }, {
+      fileName: "third-example.js",
+      description: "more",
+      body: `
+        import Component from '@glimmer/component';
+
+        export default class MyComponent extends Component {
+          variable = "newValue"
+        }
+      `
+    }, {
+      fileName: "fourth-example.hbs",
+      description: "some hbs",
+      body: `
+        Good day for some {{variable}}
+      `
     }
   ]
 
