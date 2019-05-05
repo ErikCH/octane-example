@@ -2,7 +2,7 @@
   {{if this.snapped "unsnap" "snap"}}
 </button>
 <div class="main-code-box">
-  {{#each shownGists as |gist|}}
+  {{#each this.shownGists as |gist|}}
     <div class="file-block">
       <div class="file-header">
         <h2>{{gist.description}}</h2>
