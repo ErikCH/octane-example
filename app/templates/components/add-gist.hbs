@@ -2,17 +2,17 @@
 <div class="gist-wrapper">
   <h2>Create Gist</h2>
   <div class="gist-description">
-    <input value={{description}} onchange={{action (mut description) value='target.value'}} type="gist-description"
+    <input value={{description}} onchange={{action (mut description) value="target.value"}} type="gist-description"
           placeholder="Gist description">
   </div>
   <div class="gist-box">
     <div class="file-header">
-      <input value={{fileName}} onchange={{action (mut fileName) value='target.value'}} type="text"
+      <input value={{fileName}} onchange={{action (mut fileName) value="target.value"}} type="text"
         placeholder="Filename including extension...">
     </div>
     <div class="text-area-gist">
       <textarea name="main-text-gist" id="" cols="30" rows="10" value={{body}}
-        onchange={{action (mut body) value='target.value'}}></textarea>
+        onchange={{action (mut body) value="target.value"}}></textarea>
     </div>
     <div class="gist-button-wrapper">
       <button onclick={{action this.addFile body description fileName}} class="gist-button">Add file</button>

@@ -1,5 +1,5 @@
 <button {{action this.snap}}>
-  {{if this.snapped 'unsnap' 'snap'}}
+  {{if this.snapped "unsnap" "snap"}}
 </button>
 <div class="main-code-box">
   {{#each shownGists as |gist|}}
@@ -9,7 +9,7 @@
         <small>{{gist.fileName}}</small>
       </div>
       <div class="code-box">
-        <CodeBlock @language='javascript'>
+        <CodeBlock @language="javascript">
           {{gist.body}}
         </CodeBlock>
       </div>
